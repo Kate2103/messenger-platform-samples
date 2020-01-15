@@ -62,7 +62,7 @@ app.post('/webhook', (req, res) => {
       }
       
     });
-    // Return a '200 OK' response to all events
+    // Return a '2000 OK' response to all events
     res.status(200).send('EVENT_RECEIVED');
 
   } else {
